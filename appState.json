@@ -1,0 +1,109 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "faf27d18-4cdc-474e-850f-d3a38ec62962": {
+        "id": "faf27d18-4cdc-474e-850f-d3a38ec62962",
+        "parent": null,
+        "name": "testyCentral",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "9619f544-4ebe-4a61-8e2b-37cb6c40ce29"
+        ],
+        "isRemovable": false,
+        "filePath": "testyCentral"
+      },
+      "9619f544-4ebe-4a61-8e2b-37cb6c40ce29": {
+        "id": "9619f544-4ebe-4a61-8e2b-37cb6c40ce29",
+        "parent": "faf27d18-4cdc-474e-850f-d3a38ec62962",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testyCentral/lambda.js",
+        "config": {
+          "runtime": "nodejs12.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigcaCentral1testApiuindunilany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "faf27d18-4cdc-474e-850f-d3a38ec62962",
+    "openFiles": [
+      "9619f544-4ebe-4a61-8e2b-37cb6c40ce29"
+    ],
+    "currentFileId": "9619f544-4ebe-4a61-8e2b-37cb6c40ce29",
+    "resources": {
+      "apigcaCentral1testApiuindunilany": {
+        "name": "apigcaCentral1testApiuindunilany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ca-central-1",
+          "apiMode": 1,
+          "apiName": "testApiu",
+          "apiId": "7zqqdfadb5",
+          "endpointType": "EDGE",
+          "rootResourceId": "z0eb4zgwj9",
+          "existingResources": {
+            "/indunil": "96p44x",
+            "/indunil/qa/t": "f1eh4v",
+            "/indunil/qa": "hryqqb",
+            "/": "z0eb4zgwj9"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/indunil",
+          "resourceName": "indunil",
+          "resourceId": "96p44x",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test11",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testyCentral",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ca-central-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1579679963827
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testyCentral",
+      "url": "https://github.com/Indunil1992/testyCentral"
+    }
+  }
+}
